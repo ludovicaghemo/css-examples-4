@@ -1,0 +1,26 @@
+/* RESER */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    line-height: 80px;
+    background-color: green;
+    background-image: url(../img/pattern.png);
+    background-size: 30%;
+    /* 30% larghezza del contenitore, ovvero schermo */
+    /* se noi scriviamo solo background acquamarine, non settiamo solo il colore: settiamo tutto il background, e tutto quello che ho settato prima (un immagine, le dimensioni ecc) va perso*/
+}
+
+.banner{
+    padding: 10rem 0;
+    text-align: center;
+    color: white;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    font-size: 5rem;
+    background-attachment: fixed;
+}
